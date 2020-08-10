@@ -19,7 +19,16 @@ include 'header.php'
 			<label>Password</label>
 			<input type="password" name="password" class="form-control">
 			<label>Confirm Password</label>
-			<input type="password" name="password" class="form-control"><br>
+			<input type="password" name="password" class="form-control">
+		
+			  <div class="form-group">
+    <label for="exampleFormControlSelect1">Are you</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>User</option>
+      <option>Admin</option>
+      
+    </select>
+  </div><br>
 			<button class="btn btn-primary mt-2">SignUp</button>
 			<a href="login.php"><button class="btn btn-info mt-2" type="button">Login</button></a><br><br>
 			
